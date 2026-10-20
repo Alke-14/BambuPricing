@@ -66,16 +66,3 @@ npm run build
 The compiled output is generated in `./dist` with relative paths (`base: './'`), ready to be served from any directory or host.
 
 ---
-
-## 🌐 GitHub Pages Deployment
-
-### Option A: Automatic via GitHub Actions (Recommended)
-This repository includes `.github/workflows/deploy.yml`:
-1. Push your code to your GitHub repository `main` branch.
-2. In GitHub, go to **Settings** > **Pages**.
-3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
-4. Every push to `main` will build and publish automatically.
-
-### Option B: Deploy from Branch
-1. Run `npm run build`.
-2. Push the contents of the `dist` folder to your `gh-pages` branch.
