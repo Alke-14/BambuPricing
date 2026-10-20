@@ -19,6 +19,7 @@ import {
   Box,
   Zap,
   Tag,
+  Sliders,
   HelpCircle
 } from 'lucide-react';
 
