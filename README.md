@@ -48,7 +48,7 @@ A responsive, modern single-page 3D print pricing and quote generator tailored f
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <repo-url>
 cd Bamcu_Calculator
 
 # Install dependencies
